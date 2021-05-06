@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard\\DevCard_MVC\\DevCard_MVC.csproj": {}
+    "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj": {}
   },
   "projects": {
-    "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard\\DevCard_MVC\\DevCard_MVC.csproj": {
+    "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
+        "projectUniqueName": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
         "projectName": "DevCard_MVC",
-        "projectPath": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
+        "projectPath": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
         "packagesPath": "C:\\Users\\EDev\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard\\DevCard_MVC\\obj\\",
+        "outputPath": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
