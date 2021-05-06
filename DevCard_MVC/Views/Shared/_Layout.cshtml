@@ -1,48 +1,98 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Read Only by HTML5 UP</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DevCard_MVC</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>فیکو | @ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-rtl.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DevCard_MVC</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<body class="is-preload">
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 1400 - DevCard_MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+<section id="header">
+    <header>
+        <h1 id="logo">
+            <a href="#">احسان اصلانی</a>
+        </h1>
+        <span class="image avatar">
+            <img src="~/images/eavatar.jpg" alt=""/>
+        </span>
+        <p>
+            سلام، احسان اصلانی هستم از<br/>
+            شرکت فیکو.<br/>
+            به وبسایت شخص من خوش آمدید.
+        </p>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">صفحه اصلی</a>
+            </li>
+            <li>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">ارتباط با ما</a>
+            </li>
+        </ul>
+    </nav>
+    <footer>
+        <ul class="icons">
+            <li>
+                <a href="#" class="icon brands fa-twitter">
+                    <span class="label">توئیتر</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon brands fa-facebook-f">
+                    <span class="label">فیس بوک</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon brands fa-instagram">
+                    <span class="label">اینستاگرام</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon brands fa-github">
+                    <span class="label">گیت هاب</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon solid fa-envelope">
+                    <span class="label">ایمیل</span>
+                </a>
+            </li>
+        </ul>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+</section>
+
+
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<section id="footer">
+    <div class="container">
+        <ul class="copyright">
+            <li>&copy;حق انتشار محفوظ است.</li><li>طراحی: <a href="https://bki.ir">فیکو</a></li>
+        </ul>
+    </div>
+</section>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/jquery.scrollex.min.js"></script>
+<script src="~/js/jquery.scrolly.min.js"></script>
+<script src="~/js/browser.min.js"></script>
+<script src="~/js/breakpoints.min.js"></script>
+<script src="~/js/util.js"></script>
+<script src="~/js/main.js"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
