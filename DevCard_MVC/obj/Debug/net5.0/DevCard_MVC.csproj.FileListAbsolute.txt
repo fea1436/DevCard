@@ -114,3 +114,5 @@ D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\bin\Deb
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
+D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
