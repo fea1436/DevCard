@@ -12,73 +12,18 @@
 </head>
 <body class="is-preload">
 
-<section id="header">
-    <header>
-        <h1 id="logo">
-            <a href="#">احسان اصلانی</a>
-        </h1>
-        <span class="image avatar">
-            <img src="~/images/me.jpg" alt=""/>
-        </span>
-        <p>
-            سلام، احسان اصلانی هستم از<br/>
-            شرکت فیکو.<br/>
-            به وبسایت شخص من خوش آمدید.
-        </p>
-    </header>
-    <nav id="nav">
-        <ul>
-            <li>
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">صفحه اصلی</a>
-            </li>
-            <li>
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">ارتباط با ما</a>
-            </li>
-        </ul>
-    </nav>
-    <footer>
-        <ul class="icons">
-            <li>
-                <a href="#" class="icon brands fa-twitter">
-                    <span class="label">توئیتر</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="icon brands fa-facebook-f">
-                    <span class="label">فیس بوک</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="icon brands fa-instagram">
-                    <span class="label">اینستاگرام</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="icon brands fa-github">
-                    <span class="label">گیت هاب</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="icon solid fa-envelope">
-                    <span class="label">ایمیل</span>
-                </a>
-            </li>
-        </ul>
-    </footer>
-</section>
 
 <div id="wrapper">
+
+    <partial name="Header"/>
+
     <div id="main">
+
         @RenderBody()
+
+        <partial name="Footer"/>
     </div>
 </div>
-
-<section class="footer text-center justify-content-center py-4 bg-light">
-    <ul class="copyright">
-        <li>&copy;حق انتشار محفوظ است.</li>
-        <li>طراحی: <a href="https://bki.ir">فیکو</a></li>
-    </ul>
-</section>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -90,6 +35,7 @@
 <script src="~/js/breakpoints.min.js"></script>
 <script src="~/js/util.js"></script>
 <script src="~/js/main.js"></script>
+<script defer src="~/fonts/awesome/all.js"></script>
 
 @await RenderSectionAsync("Scripts", required: false)
 </body>

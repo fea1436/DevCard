@@ -116,3 +116,5 @@ D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\bin\Deb
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
 D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
+D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
+D:\Programming_Training\Atrya_MVC\00_MySoloutions\02_DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Header.cshtml.g.cs
