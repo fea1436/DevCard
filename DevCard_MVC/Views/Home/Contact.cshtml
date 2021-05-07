@@ -3,5 +3,64 @@
     ViewData["Title"] = "ارتباط با ما";
 }
 
-<h1>Contact</h1>
 
+<div class="row py-5 justify-content-center">
+    <div class="col-8">
+        <div class="row py-5 align-center justify-content-center border">
+            <div class="align-center col-8">
+                <section class="">
+                    <h4 class="py-5">با ما در تماس باشید</h4>
+                    <form method="post" action="#">
+                        <div class="row gtr-uniform">
+                            <div class="col-6 col-12-xsmall">
+                                <input type="text" name="demo-name" id="demo-name" value="" placeholder="نام"/>
+                            </div>
+                            <div class="col-6 col-12-xsmall">
+                                <input type="email" name="demo-email" id="demo-email" value="" placeholder="ایمیل"/>
+                            </div>
+                            <div class="col-12">
+                                <select name="demo-category" id="demo-category">
+                                    <option value="">- انتخاب کنید -</option>
+                                    <option value="1">تولید</option>
+                                    <option value="1">فروش</option>
+                                    <option value="1">مدیریت</option>
+                                    <option value="1">منابع انسانی</option>
+                                </select>
+                            </div>
+                            <div class="col-4 col-12-medium">
+                                <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                                <label for="demo-priority-low">کم اهمیت</label>
+                            </div>
+                            <div class="col-4 col-12-medium">
+                                <input type="radio" id="demo-priority-normal" name="demo-priority">
+                                <label for="demo-priority-normal">اولویت نرمال</label>
+                            </div>
+                            <div class="col-4 col-12-medium">
+                                <input type="radio" id="demo-priority-high" name="demo-priority">
+                                <label for="demo-priority-high">درجۀ اهمیت بالا</label>
+                            </div>
+                            <div class="col-6 col-12-medium">
+                                <input type="checkbox" id="demo-copy" name="demo-copy">
+                                <label for="demo-copy">یک کپی از این را به من ایمیل بزن</label>
+                            </div>
+                            <div class="col-6 col-12-medium">
+                                <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                <label for="demo-human">من ربات نیستم</label>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="demo-message" id="demo-message" placeholder="پیام خود را اینجا بنویسید" rows="6"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <ul class="actions">
+                                    <li><input type="submit" value="ارسال پیام"/></li>
+                                    <li><input type="reset" value="پاک کردن فرم" class="alt"/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</div>
