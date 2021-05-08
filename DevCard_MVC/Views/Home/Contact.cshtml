@@ -29,15 +29,30 @@
         <div class="row py-5 align-center justify-content-center border">
             <div class="align-center col-8">
                 <section class="">
-                    <h4 class="py-5">فرم درخواست ارتباط</h4>
+
+                    @if (string.IsNullOrWhiteSpace(ViewBag.error))
+                    {
+                        <div class="alert-danger">
+                            <p>@ViewBag.error</p>
+                        </div>
+                    }
+
+                    @if (string.IsNullOrWhiteSpace(ViewBag.success))
+                    {
+                        <div class="alert-success">
+                            <p>@ViewBag.success</p>
+                        </div>
+                    }
+
+                    <h4 class="py-3">فرم درخواست ارتباط</h4>
                     <form method="post" asp-action="Contact">
                         <div class="row gtr-uniform">
                             <div class="col-6 col-12-xsmall">
-                                <input type="text" asp-for="Name" value="" placeholder="نام"/>
+                                <input type="text" asp-for="Name" value="" placeholder="نام" />
                                 <span class="text-danger" asp-validation-for="Name"></span>
                             </div>
                             <div class="col-6 col-12-xsmall">
-                                <input type="email" asp-for="Email" value="" placeholder="ایمیل"/>
+                                <input type="email" asp-for="Email" value="" placeholder="ایمیل" />
                                 <span class="text-danger" asp-validation-for="Email"></span>
                             </div>
                             <div class="col-12">
@@ -50,26 +65,6 @@
                                 </select>
                             </div>
                             <span class="text-danger" asp-validation-for="Category"></span>
-                            @*<div class="col-4 col-12-medium">
-            <input type="radio" id="demo-priority-low" name="priority" checked>
-            <label for="demo-priority-low">کم اهمیت</label>
-        </div>
-        <div class="col-4 col-12-medium">
-            <input type="radio" id="demo-priority-normal" name="priority">
-            <label for="demo-priority-normal">اولویت نرمال</label>
-        </div>
-        <div class="col-4 col-12-medium">
-            <input type="radio" id="demo-priority-high" name="priority">
-            <label for="demo-priority-high">درجۀ اهمیت بالا</label>
-        </div>
-        <div class="col-6 col-12-medium">
-            <input type="checkbox" id="demo-copy" name="copy">
-            <label for="demo-copy">یک کپی از این را به من ایمیل بزن</label>
-        </div>
-        <div class="col-6 col-12-medium">
-            <input type="checkbox" id="demo-human" name="human" checked>
-            <label for="demo-human">من ربات نیستم</label>
-        </div>*@
                             <div class="col-12">
                                 <textarea asp-for="Message" placeholder="پیام خود را اینجا بنویسید" rows="6"></textarea>
                                 <span class="text-danger" asp-validation-for="Message"></span>
@@ -77,10 +72,10 @@
                             <div class="col-12">
                                 <ul class="actions">
                                     <li>
-                                        <input type="submit" value="ارسال پیام"/>
+                                        <input type="submit" value="ارسال پیام" />
                                     </li>
                                     <li>
-                                        <input type="reset" value="پاک کردن فرم" class="alt"/>
+                                        <input type="reset" value="پاک کردن فرم" class="alt" />
                                     </li>
                                 </ul>
                             </div>
