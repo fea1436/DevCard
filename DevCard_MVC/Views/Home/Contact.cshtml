@@ -30,14 +30,14 @@
             <div class="align-center col-8">
                 <section class="">
 
-                    @if (string.IsNullOrWhiteSpace(ViewBag.error))
+                    @if (!string.IsNullOrWhiteSpace(ViewBag.error))
                     {
                         <div class="alert-danger">
                             <p>@ViewBag.error</p>
                         </div>
                     }
 
-                    @if (string.IsNullOrWhiteSpace(ViewBag.success))
+                    @if (!string.IsNullOrWhiteSpace(ViewBag.success))
                     {
                         <div class="alert-success">
                             <p>@ViewBag.success</p>
