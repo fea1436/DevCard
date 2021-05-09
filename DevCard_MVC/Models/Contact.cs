@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DevCard_MVC.Models
 {
@@ -21,5 +22,11 @@ namespace DevCard_MVC.Models
         
         [Required(ErrorMessage = "متن پیام ارسالی نمی تواند خالی باشد")]
         public string Message { get; set; }
+
+        public int Service { get; set; }
+
+        public SelectList Services { get; set; }
+
+
     }
 }

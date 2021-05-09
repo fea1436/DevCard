@@ -7,12 +7,21 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 namespace DevCard_MVC.Controllers
 {
     public class HomeController : Controller
     {
+
+        public readonly List<Service> _services = new List<Service>
+        {
+            new Service(1, "الماسی"),
+            new Service(2, "طلایی"),
+            new Service(3, "نقره ای"),
+            new Service(4, "برنزی")
+        };
 
         public IActionResult Index()
         {
@@ -22,7 +31,11 @@ namespace DevCard_MVC.Controllers
         [HttpGet]
         public IActionResult Contact()
         {
-            var model = new Contact();
+            var model = new Contact
+            {
+                Services = new SelectList(_services, "Id", "Name")
+            };
+
             return View(model);
         }
 
