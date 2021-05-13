@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tiXe+ZZZhVo4Po03kZLggPiWkt71iN+hnhb81qZDEWq/7lJZZ1hjknp+J2t3RI0y3GnfXwiiWz0/Q5y0HHm1KA==",
+  "dgSpecHash": "kOBsl427qPeGMW90Jm+8i90OQG5FGAowJkqNzwgqEzgVq0SsnO7H8l5j7FXrGpirs/TiErQrpxzy1WeZFU4VNw==",
   "success": true,
-  "projectFilePath": "D:\\Programming_Training\\Atrya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
+  "projectFilePath": "D:\\Programming_Training\\Atriya_MVC\\00_MySoloutions\\02_DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EDev\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\EDev\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
